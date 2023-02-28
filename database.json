@@ -1,0 +1,30 @@
+{
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Rosie's Flowers",
+            "address": "456 Bouquet St",
+            "city": "Nashville",
+            "state": "Tennessee"
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Haulin' Oats Trucking",
+            "address": "40 Broad St",
+            "city": "Mobile",
+            "state": "Alabama"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Petal Pushers",
+            "address": "2000 Home Rd",
+            "city": "Juneau",
+            "state": "Alaska",
+            "distributorId": 1
+        }
+    ]
+}
