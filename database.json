@@ -2,29 +2,66 @@
     "nurseries": [
         {
             "id": 1,
-            "name": "Rosie's Flowers",
-            "address": "456 Bouquet St",
-            "city": "Nashville",
-            "state": "Tennessee"
+            "name": "Rosie's Flowers"
         }
     ],
     "distributors": [
         {
             "id": 1,
             "name": "Haulin' Oats Trucking",
-            "address": "40 Broad St",
-            "city": "Mobile",
-            "state": "Alabama"
+            "markUp": 10,
+            "capacity": 5
         }
     ],
     "retailers": [
         {
             "id": 1,
             "name": "Petal Pushers",
-            "address": "2000 Home Rd",
-            "city": "Juneau",
-            "state": "Alaska",
+            "markUp": 15,
             "distributorId": 1
         }
+    ], 
+    "flowers": [
+        { 
+            "id": 1,
+            "name": "Roses",
+            "color": "Red"
+        },
+        { 
+            "id": 2,
+            "name": "Begonias",
+            "color": "Scarlet" 
+        },
+        { 
+            "id": 3,
+            "name": "Tulips", 
+            "color": "Purple"
+        },
+        { 
+            "id": 4, 
+            "name": "Orchids", 
+            "color": "White" 
+        },
+        { 
+            "id": 5, 
+            "name": "Daisies", 
+            "color": "Yellow" 
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1,
+            "price": 1
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        }
+        
     ]
 }
