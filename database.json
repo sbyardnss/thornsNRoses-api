@@ -3,6 +3,26 @@
         {
             "id": 1,
             "name": "Rosie's Flowers"
+        },
+        {
+            "id": 2,
+            "name": "Martha's Nursery"
+        },
+        {
+            "id": 3,
+            "name": "Tim's Tulips"
+        },
+        {
+            "id": 4,
+            "name": "Central Growing"
+        },
+        {
+            "id": 5,
+            "name": "Potted Love Gardens"
+        },
+        {
+            "id": 6,
+            "name": "Greenway Nursery"
         }
     ],
     "distributors": [
@@ -11,6 +31,18 @@
             "name": "Haulin' Oats Trucking",
             "markUp": 10,
             "capacity": 5
+        },
+        {
+            "id": 2,
+            "name": "Plant Shipping",
+            "markUp": 20,
+            "capacity": 10
+        },
+        {
+            "id": 3,
+            "name": "Ivy Logistics",
+            "markUp": 18,
+            "capacity": 17
         }
     ],
     "retailers": [
@@ -19,33 +51,57 @@
             "name": "Petal Pushers",
             "markUp": 15,
             "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Bonnie's Bouquets",
+            "markUp": 20,
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Pretty Tall Flowers",
+            "markUp": 27,
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Jersey Mike's Rose Emporium",
+            "markUp": 18,
+            "distributorId": 3
+        },
+        {
+            "id": 5,
+            "name": "Dave's One-Stop Flower Shop",
+            "markUp": 12,
+            "distributorId": 1
         }
-    ], 
+    ],
     "flowers": [
-        { 
+        {
             "id": 1,
             "name": "Roses",
             "color": "Red"
         },
-        { 
+        {
             "id": 2,
             "name": "Begonias",
-            "color": "Scarlet" 
+            "color": "Scarlet"
         },
-        { 
+        {
             "id": 3,
-            "name": "Tulips", 
+            "name": "Tulips",
             "color": "Purple"
         },
-        { 
-            "id": 4, 
-            "name": "Orchids", 
-            "color": "White" 
+        {
+            "id": 4,
+            "name": "Orchids",
+            "color": "White"
         },
-        { 
-            "id": 5, 
-            "name": "Daisies", 
-            "color": "Yellow" 
+        {
+            "id": 5,
+            "name": "Daisies",
+            "color": "Yellow"
         }
     ],
     "nurseryFlowers": [
@@ -54,6 +110,108 @@
             "nurseryId": 1,
             "flowerId": 1,
             "price": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 4,
+            "price": 1.25
+        },
+        {
+            "id": 3,
+            "nurseryId": 1,
+            "flowerId": 5,
+            "price": 2
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 1,
+            "price": 2.25
+        },
+        {
+            "id": 5,
+            "nurseryId": 2,
+            "flowerId": 3,
+            "price": 1.75
+        },
+        {
+            "id": 6,
+            "nurseryId": 2,
+            "flowerId": 6,
+            "price": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 3,
+            "flowerId": 2,
+            "price": 1.50
+        },
+        {
+            "id": 8,
+            "nurseryId": 3,
+            "flowerId": 3,
+            "price": 2
+        },
+        {
+            "id": 9,
+            "nurseryId": 3,
+            "flowerId": 6,
+            "price": 1.60
+        },
+        {
+            "id": 10,
+            "nurseryId": 4,
+            "flowerId": 2,
+            "price": 1.25
+        },
+        {
+            "id": 11,
+            "nurseryId": 4,
+            "flowerId": 4,
+            "price": 1.80
+        },
+        {
+            "id": 12,
+            "nurseryId": 4,
+            "flowerId": 5,
+            "price": 1
+        },
+        {
+            "id": 13,
+            "nurseryId": 5,
+            "flowerId": 1,
+            "price": 1.50
+        },
+        {
+            "id": 14,
+            "nurseryId": 5,
+            "flowerId": 3,
+            "price": 1.80
+        },
+        {
+            "id": 15,
+            "nurseryId": 5,
+            "flowerId": 6,
+            "price": 1.20
+        },
+        {
+            "id": 16,
+            "nurseryId": 6,
+            "flowerId": 2,
+            "price": 2
+        },
+        {
+            "id": 17,
+            "nurseryId": 6,
+            "flowerId": 3,
+            "price": 1.75
+        },
+        {
+            "id": 18,
+            "nurseryId": 6,
+            "flowerId": 5,
+            "price": 1
         }
     ],
     "distributorNurseries": [
@@ -61,7 +219,62 @@
             "id": 1,
             "nurseryId": 1,
             "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "distributorId": 3
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "distributorId": 2
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "distributorId": 3
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "distributorId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "distributorId": 3
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "distributorId": 1
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "distributorId": 2
+        },
+        {
+            "id": 11,
+            "nurseryId": 6,
+            "distributorId": 1
+        },
+        {
+            "id": 12,
+            "nurseryId": 6,
+            "distributorId": 3
         }
-        
+
     ]
 }
