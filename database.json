@@ -102,6 +102,11 @@
             "id": 5,
             "name": "Daisies",
             "color": "Yellow"
+        },
+        {
+            "id": 6,
+            "name": "Carnations",
+            "color": "Crimson"
         }
     ],
     "nurseryFlowers": [
