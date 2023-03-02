@@ -49,30 +49,35 @@
         {
             "id": 1,
             "name": "Petal Pushers",
+            "address": "9084 Clair Isle",
             "markUp": 15,
             "distributorId": 1
         },
         {
             "id": 2,
             "name": "Bonnie's Bouquets",
+            "address": "8428 Heller Prairie",
             "markUp": 20,
             "distributorId": 2
         },
         {
             "id": 3,
             "name": "Pretty Tall Flowers",
+            "address": "1540 Bartoletti Lights",
             "markUp": 27,
             "distributorId": 3
         },
         {
             "id": 4,
             "name": "Jersey Mike's Rose Emporium",
+            "address": "04954 Hauck Mountains",
             "markUp": 18,
             "distributorId": 3
         },
         {
             "id": 5,
             "name": "Dave's One-Stop Flower Shop",
+            "address": "6683 Alan Branch",
             "markUp": 12,
             "distributorId": 1
         }
