@@ -10,22 +10,109 @@
   ],
   "purchases": [
     {
-      "id": 1,
-      "customerId": 5,
-      "retailerId": 3,
-      "flowerId": 11
-    },
-    {
       "customerId": 1,
       "flowerId": 1,
       "retailerId": 1,
-      "id": 2
+      "retailerPrice": 2.27,
+      "id": 1
+    },
+    {
+      "customerId": 1,
+      "flowerId": 2,
+      "retailerId": 1,
+      "retailerPrice": 4.53,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "flowerId": 2,
+      "retailerId": 1,
+      "retailerPrice": 4.53,
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "flowerId": 2,
+      "retailerId": 1,
+      "retailerPrice": 4.53,
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "flowerId": 3,
+      "retailerId": 1,
+      "retailerPrice": 3.96,
+      "id": 6
+    },
+    {
+      "customerId": 1,
+      "flowerId": 3,
+      "retailerId": 1,
+      "retailerPrice": 3.96,
+      "id": 7
+    },
+    {
+      "customerId": 1,
+      "flowerId": 5,
+      "retailerId": 1,
+      "retailerPrice": 4.53,
+      "id": 8
+    },
+    {
+      "customerId": 1,
+      "flowerId": 5,
+      "retailerId": 1,
+      "retailerPrice": 4.53,
+      "id": 9
+    },
+    {
+      "customerId": 1,
+      "flowerId": 5,
+      "retailerId": 1,
+      "retailerPrice": 4.53,
+      "id": 10
+    },
+    {
+      "customerId": 1,
+      "flowerId": 5,
+      "retailerId": 1,
+      "retailerPrice": 4.53,
+      "id": 11
+    },
+    {
+      "customerId": 1,
+      "flowerId": 6,
+      "retailerId": 2,
+      "retailerPrice": 2.44,
+      "id": 13
+    },
+    {
+      "customerId": 1,
+      "flowerId": 2,
+      "retailerId": 2,
+      "retailerPrice": 3.66,
+      "id": 15
     },
     {
       "customerId": 1,
       "flowerId": 4,
       "retailerId": 1,
-      "id": 3
+      "retailerPrice": 2.83,
+      "id": 16
+    },
+    {
+      "customerId": 1,
+      "flowerId": 4,
+      "retailerId": 1,
+      "retailerPrice": 2.83,
+      "id": 17
+    },
+    {
+      "customerId": 1,
+      "flowerId": 4,
+      "retailerId": 1,
+      "retailerPrice": 2.83,
+      "id": 18
     }
   ],
   "nurseries": [
